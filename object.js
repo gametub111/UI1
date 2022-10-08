@@ -4,4 +4,5 @@ function person(){
 }
 person.prototype.gender="male";
 let p1 = new person();
+
 console.log(p1.gender);
